@@ -51,16 +51,16 @@ const AboutSection: React.FC = () => {
 
                             <div className="skills-card">
                                 <p>
-                                    <span>Technologies</span>
+                                    <span className="Skill">Technologies</span>
                                     <span className="extra-info">Python, Java, Linux, JavaScript, React, React Native, Bootstrap, NodeJS, Express</span>
                                 </p>
                                 <p>
-                                    <span>Programming Languages</span>
+                                    <span className="Skill">Programming Languages</span>
                                     <span className="extra-info">Python, Java, JavaScript, HTML, CSS</span>
 
                                 </p>
                                 <p>
-                                    <span>Databases</span>
+                                    <span className="Skill">Databases</span>
                                     <span className="extra-info">MySQL, MongoDB, Microsoft SQL Server</span>
                                 </p>
                             </div>
@@ -126,7 +126,7 @@ const App: React.FC = () => {
             </section>
 
             <AboutSection />
-/*Projects*/
+{/*Projects*/}
             <section id="projects">
                 <div className="container">
                     <div className="project-wrapper">
@@ -308,6 +308,7 @@ const App: React.FC = () => {
                             </a>
                         </div>
                         <p className="footer__text">© 2023 Nikilesh Madala</p>
+                        <p className="footer__text"> Designed by Nikilesh Madala. Reusing in any level is not allowed.</p>
                     </div>
                 </div>
             </section>
