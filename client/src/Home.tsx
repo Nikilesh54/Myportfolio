@@ -66,58 +66,53 @@ const AboutSection: React.FC = () => {
                         <div className="skills-card">
                             <p>
                                 <span className="Skill">Technologies</span>
-                                <span className="extra-info">
-                                    <img src="/Images/LogosFinal/AWS.png" alt="AWS" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/Microsoft Azure.png" alt="Azure"
-                                         className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/Powerbi.png" alt="Powerbi" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/Snowflake.png" alt="Snowflake" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/Figma.png" alt="Figma" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/Git.png" alt="Git" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/GitHub.png" alt="GitHub" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/BitBucket.png" alt="BitBucket" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/Postman.png" alt="Postman" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/Docker.png" alt="Docker" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/Kubernetes.png" alt="Kubernetes"
-                                         className="skill-logo"/>
+                                <span className="extra-info skill-logo-wrapper">
+                                    <img src="/Images/LogosFinal/AWS.png" alt="AWS" title="AWS" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/Microsoft Azure.png" alt="Azure" title="Azure" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/Powerbi.png" alt="Powerbi" title="Powerbi" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/Snowflake.png" alt="Snowflake" title="Snowflake" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/Figma.png" alt="Figma" title="Figma" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/Git.png" alt="Git" title="Git" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/GitHub.png" alt="GitHub" title="GitHub" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/BitBucket.png" alt="BitBucket" title="BitBucket" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/Postman.png" alt="Postman" title="Postman" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/Docker.png" alt="Docker" title="Docker" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/Kubernetes.png" alt="Kubernetes" title="Kubernetes" className="skill-logo"/>
                                 </span>
                             </p>
                             <p>
                                 <span className="Skill">Languages</span>
                                 <span className="extra-info">
-                                    <img src="/Images/LogosFinal/Python.png" alt="Python" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/Java.png" alt="Java" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/JavaScript.png" alt="JavaScript"
-                                         className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/C++.png" alt="C++" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/Typescript.png" alt="Typescript"
-                                         className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/SQL.png" alt="SQL" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/Linux.png" alt="Linux" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/Python.png" alt="Python" title="Python" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/Java.png" alt="Java" title="Java" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/JavaScript.png" alt="JavaScript" title="JavaScript" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/C++.png" alt="C++" title="C++" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/Typescript.png" alt="Typescript" title="Typescript" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/SQL.png" alt="SQL" title="SQL" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/Linux.png" alt="Linux" title="Linux" className="skill-logo"/>
                                 </span>
                             </p>
                             <p>
                                 <span className="Skill">Databases</span>
                                 <span className="extra-info">
-                                    <img src="/Images/LogosFinal/MySQL.png" alt="MySQL" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/PostgreSQL.png" alt="PostgreSQL"
-                                         className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/mongoDB.png" alt="MongoDB" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/SQLServer.png" alt="SQLServer" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/OracleDB.png" alt="Oracle" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/MySQL.png" alt="MySQL" title="MySQL" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/PostgreSQL.png" alt="PostgreSQL" title="PostgreSQL" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/mongoDB.png" alt="MongoDB" title="MongoDB" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/SQLServer.png" alt="SQLServer" title="SQLServer" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/OracleDB.png" alt="Oracle" title="Oracle" className="skill-logo"/>
                                 </span>
                             </p>
                             <p>
                                 <span className="Skill">Frameworks</span>
                                 <span className="extra-info">
-                                    <img src="/Images/LogosFinal/React.png" alt="React" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/NodeJS.png" alt="Nodejs" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/express.png" alt="Express" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/Redux.png" alt="Redux" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/jQuery.png" alt="jQuery" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/Bootstrap.png" alt="Bootstrap" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/HTML.png" alt="HTML" className="skill-logo"/>
-                                    <img src="/Images/LogosFinal/CSS.png" alt="CSS" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/React.png" alt="React" title="React" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/NodeJS.png" alt="Nodejs" title="Nodejs" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/express.png" alt="Express" title="Express" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/Redux.png" alt="Redux" title="Redux" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/jQuery.png" alt="jQuery" title="jQuery" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/Bootstrap.png" alt="Bootstrap" title="Bootstrap" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/HTML.png" alt="HTML" title="HTML" className="skill-logo"/>
+                                    <img src="/Images/LogosFinal/CSS.png" alt="CSS" title="CSS" className="skill-logo"/>
                                 </span>
                             </p>
                         </div>
@@ -133,8 +128,8 @@ const AboutSection: React.FC = () => {
                         View Resume
                     </a>
                 </span>
-                    </div>
                 </div>
+            </div>
             </div>
         </section>
 
