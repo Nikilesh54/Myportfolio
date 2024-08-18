@@ -56,7 +56,7 @@ const AboutSection: React.FC = () => {
                             where I’m expanding my tech skills and exploring new frontiers in coding<img src="/Images/Semicolon.png " alt="Semicolon Logo" className="about-inline-logo"/>
                         </p>
                         <p className="about-info-text">When I’m not busy coding, you can usually find me on X
-                            tweeting or scrolling through Reddit, keeping up everything. I have a knack for creating
+                            tweeting or scrolling through Reddit, keeping up with everything. I have a knack for creating
                             problems in my life🙃 and solving them in code🙂 – and I tend to crack jokes while I’m at it, so
                             expect some laughs along the way.</p>
                         <p className="about-info-text">I’m always excited to connect with fellow tech enthusiasts, so
