@@ -212,16 +212,18 @@ const App: React.FC = () => {
                         <div className="row">
                             <div className="col-lg-4 col-sm-12">
                                 <div className="project-wrapper__text load-hidden">
-                                    <h3 className="project-wrapper__text-title">Project Title 1</h3>
+                                    <h3 className="project-wrapper__text-title">Banking Management System</h3>
                                     <div>
                                         <p className="mb-4">
-                                            Project 1 Description
+                                            •	Engineered the front-end for an Online Banking System with enhanced UI/UX using React and TypeScript SPA, leading to a significant 30% boost in user engagement
+                                            •	Implemented Axios for backend communication, optimizing response times, and deployed the system on Microsoft Azure, achieving 99.9% up time.
+
                                         </p>
                                     </div>
                                     <a
                                         rel="noreferrer"
                                         target="_blank"
-                                        className="cta-btn cta-btn--hero"
+                                        className="cta-btn text-color-sourcecode"
                                         href="#!"
                                     >
                                         See Live
