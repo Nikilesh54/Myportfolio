@@ -338,7 +338,7 @@ const App: React.FC = () => {
                                 <i className="fa fa-github fa-inverse"></i>
                             </a>
                         </div>
-                        <p className="footer__text">© 2023 Nikilesh Madala</p>
+                        <p className="footer__text">© 2024 Nikilesh Madala</p>
                         <p className="footer__text"> Design and Intellectual property (IP) of Nikilesh Madala. Reusing without permission in any level is not allowed.</p>
                     </div>
                 </div>
