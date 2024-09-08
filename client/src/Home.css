@@ -459,6 +459,21 @@ section {
             0 0 17px mediumpurple;
 }
 
+/*Experience Section*/
+#experience {
+    background-color: #fff;
+    color: #272341;
+    margin-top: -10rem;
+    padding-top: 15rem;
+}
+
+.Experience-Role{
+    font-style: italic;
+    margin-bottom: 1.8rem;
+    font-size: 13px;
+    padding-left: 25px;
+}
+
 /* Projects Section */
 #projects {
     background-color: #fff;
@@ -466,8 +481,12 @@ section {
     margin-top: -10rem;
     padding-top: 15rem;
 }
-.project-wrapper {
-    margin-bottom: 15rem;
+
+
+.project-wrapper__text p {
+    padding-left: 40px; /* Adjust the value as needed */
+    padding-right: 20px; /* Adjust the value as needed */
+    text-align: justify;
 }
 .project-wrapper .row {
     margin-bottom: 8rem;
@@ -479,6 +498,8 @@ section {
     font-weight: bold;
     margin-bottom: 1.8rem;
     font-size: 2.5rem;
+    padding-left: 20px;
+    padding-right: 30px;
 }
 .project-wrapper__text p > a {
     color: #00cdac;

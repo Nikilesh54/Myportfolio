@@ -204,9 +204,76 @@ const App: React.FC = () => {
 
             <CursorEffect /> {/* Add the CursorEffect component */}
             <AboutSection />
+
+            {/*Experience*/}
+            <section id="experience">
+                    <div className="project-wrapper">
+                        <h2 className="section-title dark-blue-text">Experience</h2>
+                        <div className="row">
+                            <div className="col-lg-4 col-sm-12">
+                                <div className="project-wrapper__text load-hidden">
+                                    <h3 className="project-wrapper__text-title">Cognizant</h3>
+                                    <h3 className="Experience-Role">Software
+                                        Engineer</h3>{/*TODO: Add date, Mate it Italian*/}
+                                    <div>
+                                        <p className="mb-4">
+                                            • Developed and maintained robust APIs using Python to manage insurance
+                                            portfolios, client policies, and policy
+                                            creation processes, enhancing data retrieval efficiency by 30% and reducing
+                                            error rates by 20%.
+                                        </p>
+                                        <p className="mb-4">
+                                            • Modeled and implemented user-friendly front-end interfaces with React
+                                            functional components for seamless
+                                            policy management and portfolio tracking, which improved user interaction
+                                            and satisfaction scores by 35%.
+                                        </p>
+                                        <p className="mb-4">
+                                            • Built and optimized serverless backend solutions using AWS Lambda,
+                                            integrating with AWS VPCs to ensure
+                                            secure and scalable handling of policy data, which led to a 25% reduction in
+                                            operational costs.
+                                        </p>
+                                        <p className="mb-4">
+                                            • Architected and administered AWS infrastructure to support high-volume
+                                            policy management and client
+                                            interactions, achieving 99.9% system uptime and improving overall system
+                                            reliability.
+                                        </p>
+                                        <p className="mb-4">
+                                            • Collaborated closely with insurance specialists to implement new features
+                                            and enhancements tailored to policy
+                                            management needs, consistently delivering projects on time and increasing
+                                            feature adoption by 40%.
+                                        </p>
+                                    </div>
+                                    <h3 className="project-wrapper__text-title">Cognizant</h3>
+                                    <h3 className="Experience-Role">Software Development Intern</h3>{/*TODO: Add date, Mate it Italian*/}
+                                    <div>
+                                        <p className="mb-4">
+                                            • Designed customer profile using React, successfully improving user experience and streamlining the
+                                            profile management process, resulting in 99 out of 100 users reporting a smoother experience.
+                                        </p>
+                                        <p className="mb-4">
+                                            • Created and deployed corresponding APIs for profile updates, ensuring data integrity and reducing update
+                                            processing time by 20%.
+                                        </p>
+                                        <p className="mb-4">
+                                            • Resolved 20+ client-reported bugs, enhancing application reliability and user satisfaction.
+                                        </p>
+                                        <p className="mb-4">
+                                            • Documented processes, tasks, and development workflows comprehensively, creating clear and
+                                            accessible documentation on Confluence to support team collaboration and knowledge sharing.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
             {/*Projects*/}
             <section id="projects">
-                <div className="container">
                     <div className="project-wrapper">
                         <h2 className="section-title dark-blue-text">Projects</h2>
                         <div className="row">
@@ -215,12 +282,16 @@ const App: React.FC = () => {
                                     <h3 className="project-wrapper__text-title">Banking Management System</h3>
                                     <div>
                                         <p className="mb-4">
-                                            •	Engineered the front-end for an Online Banking System with enhanced UI/UX using React and TypeScript SPA, leading to a significant 30% boost in user engagement
-                                            •	Implemented Axios for backend communication, optimizing response times, and deployed the system on Microsoft Azure, achieving 99.9% up time.
-
+                                            • Engineered the front-end for an Online Banking System with enhanced UI/UX
+                                            using React and TypeScript SPA, leading to a significant 30% boost in user
+                                            engagement.
+                                        </p>
+                                        <p className="mb-4">
+                                            • Implemented Axios for backend communication, optimizing response times,
+                                            and deployed the system on Microsoft Azure, achieving 99.9% up time.
                                         </p>
                                     </div>
-                                    <a
+                                    {/*<a
                                         rel="noreferrer"
                                         target="_blank"
                                         className="cta-btn text-color-sourcecode"
@@ -235,40 +306,56 @@ const App: React.FC = () => {
                                         href="#!"
                                     >
                                         Source Code
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="col-lg-8 col-sm-12">
-                                <div className="project-wrapper__image load-hidden">
-                                    <a rel="noreferrer" href="#!" target="_blank">
-                                        <div
-                                            data-tilt
-                                            data-tilt-max="4"
-                                            data-tilt-glare="true"
-                                            data-tilt-max-glare="0.5"
-                                            className="thumbnail rounded js-tilt"
-                                        >
-                                            <img
-                                                alt="Project Image"
-                                                className="img-fluid"
-                                                src="assets/project.jpg"
-                                            />
-                                        </div>
-                                    </a>
+                                    </a>*/}
                                 </div>
                             </div>
                         </div>
+                        {/*<div className="col-lg-8 col-sm-12">
+                            <div className="project-wrapper__image load-hidden">
+                                <a rel="noreferrer" href="#!" target="_blank">
+                                    <div
+                                        data-tilt
+                                        data-tilt-max="4"
+                                        data-tilt-glare="true"
+                                        data-tilt-max-glare="0.5"
+                                        className="thumbnail rounded js-tilt"
+                                    >
+                                        <img
+                                            alt="Project Image"
+                                            className="img-fluid"
+                                            src="assets/project.jpg"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>*/}
 
                         <div className="row">
                             <div className="col-lg-4 col-sm-12">
                                 <div className="project-wrapper__text load-hidden">
-                                    <h3 className="project-wrapper__text-title">Project Title 2</h3>
+                                    <h3 className="project-wrapper__text-title">Encrypting Image</h3>
                                     <div>
                                         <p className="mb-4">
-                                            Project 2 Description
+                                            • Constructed an AES-256-based image encryption platform to secure image
+                                            transmission over untrusted networks.
+                                        </p>
+                                        <p className="mb-4">
+                                            • Created a React front-end with integrated encryption libraries, enhancing
+                                            user interaction and achieving a 35% improvement in encryption processing
+                                            speed.
+                                        </p>
+                                        <p className="mb-4">
+                                            • Executed HTTPS and TLS protocols, ensuring secure and tamper-proof
+                                            data transfer, with 49 out of 50 transmissions verified as
+                                            uncompromised.
+                                        </p>
+                                        <p className="mb-4">
+                                            • Designed a real-time verification system, maintaining image integrity
+                                            and successfully preventing unauthorized modifications in 46 out of 50
+                                            test cases.
                                         </p>
                                     </div>
-                                    <a
+                                    {/*<a
                                         rel="noreferrer"
                                         target="_blank"
                                         className="cta-btn cta-btn--hero"
@@ -283,11 +370,11 @@ const App: React.FC = () => {
                                         href="#!"
                                     >
                                         Source Code
-                                    </a>
+                                    </a>*/}
                                 </div>
                             </div>
                             <div className="col-lg-8 col-sm-12">
-                                <div className="project-wrapper__image load-hidden">
+                                {/*<div className="project-wrapper__image load-hidden">
                                     <a rel="noreferrer" href="#!" target="_blank">
                                         <div
                                             data-tilt
@@ -303,12 +390,67 @@ const App: React.FC = () => {
                                             />
                                         </div>
                                     </a>
+                                </div>*/}
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-lg-4 col-sm-12">
+                                <div className="project-wrapper__text load-hidden">
+                                    <h3 className="project-wrapper__text-title">Full-Stack LMS with Django & React:</h3>
+                                    <div>
+                                        <p className="mb-4">
+                                            • Modeled a full-stack LMS using Django, PostgreSQL, React, and TypeScript for better system performance.
+                                        </p>
+                                        <p className="mb-4">
+                                            • Architected Python-based quiz modules with randomized questions and multi-format support, enhancing user engagement by 25%.
+                                        </p>
+                                        <p className="mb-4">
+                                            • Built RESTful APIs with Node.js and Express, reducing data retrieval time by 30%.
+                                        </p>
+                                        <p className="mb-4">
+                                            • Utilized React Hooks for state management and produced secure video uploads and PDF generation, improving content accessibility by 40%.
+                                        </p>
+                                    </div>
+                                    {/*<a
+                                        rel="noreferrer"
+                                        target="_blank"
+                                        className="cta-btn cta-btn--hero"
+                                        href="#!"
+                                    >
+                                        See Live
+                                    </a>
+                                    <a
+                                        rel="noreferrer"
+                                        target="_blank"
+                                        className="cta-btn text-color-sourcecode"
+                                        href="#!"
+                                    >
+                                        Source Code
+                                    </a>*/}
                                 </div>
+                            </div>
+                            <div className="col-lg-8 col-sm-12">
+                                {/*<div className="project-wrapper__image load-hidden">
+                                    <a rel="noreferrer" href="#!" target="_blank">
+                                        <div
+                                            data-tilt
+                                            data-tilt-max="4"
+                                            data-tilt-glare="true"
+                                            data-tilt-max-glare="0.5"
+                                            className="thumbnail rounded js-tilt"
+                                        >
+                                            <img
+                                                alt="Project Image"
+                                                className="img-fluid"
+                                                src="assets/project.jpg"
+                                            />
+                                        </div>
+                                    </a>
+                                </div>*/}
                             </div>
                         </div>
 
                     </div>
-                </div>
             </section>
             {/*Footer*/}
             <section id="contact">
@@ -339,7 +481,8 @@ const App: React.FC = () => {
                             </a>
                         </div>
                         <p className="footer__text">© 2024 Nikilesh Madala</p>
-                        <p className="footer__text"> Design and Intellectual property (IP) of Nikilesh Madala. Reusing without permission in any level is not allowed.</p>
+                        <p className="footer__text"> Design and Intellectual property (IP) of Nikilesh Madala. Reusing
+                            without permission in any level is not allowed.</p>
                     </div>
                 </div>
             </section>
